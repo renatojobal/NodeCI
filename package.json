@@ -1,0 +1,23 @@
+{
+  "name": "nodeci",
+  "version": "1.0.0",
+  "description": "Project for test CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatojobal/NodeCI.git"
+  },
+  "keywords": [
+    "node",
+    "ci"
+  ],
+  "author": "renatojobal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renatojobal/NodeCI/issues"
+  },
+  "homepage": "https://github.com/renatojobal/NodeCI#readme"
+}
