@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/renatojobal/NodeCI/issues"
   },
-  "homepage": "https://github.com/renatojobal/NodeCI#readme"
+  "homepage": "https://github.com/renatojobal/NodeCI#readme",
+  "devDependencies": {
+    "git-cz": "^4.9.0"
+  }
 }
