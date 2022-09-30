@@ -4,7 +4,12 @@
   "description": "Project for test CI/CD",
   "main": "index.js",
   "scripts": {
-    "test": "tests.js"
+    "release": "node release-manager.js",
+    "lint": "ng lint",
+    "headless-test": "",
+    "precommit": "npm run lint && npm run headless-test",
+    "release-patch": "npm version patch --force --no-git-tag-version && git add package.json package-lock.json",
+    "commit": "npm run release-patch && npx git-cz"
   },
   "repository": {
     "type": "git",
@@ -22,5 +27,9 @@
   "homepage": "https://github.com/renatojobal/NodeCI#readme",
   "devDependencies": {
     "git-cz": "^4.9.0"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "cli-select": "^1.1.2"
   }
 }
