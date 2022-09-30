@@ -1,6 +1,6 @@
 {
   "name": "nodeci",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Project for test CI/CD",
   "main": "index.js",
   "scripts": {
