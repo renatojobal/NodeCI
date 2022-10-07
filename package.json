@@ -1,6 +1,6 @@
 {
   "name": "nodecirenatojobal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Project for test CI/CD",
   "main": "index.js",
   "scripts": {
