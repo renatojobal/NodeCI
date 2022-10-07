@@ -9,7 +9,8 @@
     "headless-test": "",
     "precommit": "npm run lint && npm run headless-test",
     "release-patch": "npm version patch --force --no-git-tag-version && git add package.json package-lock.json",
-    "commit": "npm run release-patch && npx git-cz"
+    "commit": "npm run release-patch && npx git-cz",
+    "test": ""
   },
   "repository": {
     "type": "git",
